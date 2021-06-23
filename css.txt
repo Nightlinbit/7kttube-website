@@ -1,0 +1,57 @@
+.yt-uix-discord-button {
+    background: #7289DA;
+    border-color: #7289DA;
+}
+.yt-uix-discord-button:hover {
+    background: #4E5D94;
+    border-color: #4E5D94;
+}
+#7kt-columns:after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
+#ytcol1 {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    white-space: pre;
+    display: table-cell;
+    padding-top: 10px;
+    width: 50%;
+}
+
+#ytcol2 {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    white-space: normal;
+    display: table-cell;
+    padding-top: 10px;
+    border-left: 1px solid #ccc;
+    flex: 50%;
+    height: 100%;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 970px) {
+    #ytcol1 {
+        padding-bottom: 20px;
+        padding-left: 20px;
+        white-space: pre;
+        display: block;
+        padding-top: 10px;
+        width: 50%;
+    }
+    #ytcol2 {
+        padding-bottom: 20px;
+        padding-left: 20px;
+        white-space: normal;
+        display: block;
+        padding-top: 10px;
+        border-top: 1px solid #ccc;
+        border-left: none;
+        flex: 50%;
+        height: 100%;
+        padding-right: 10px;
+    }
+}
